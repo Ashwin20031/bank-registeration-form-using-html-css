@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+
+body{
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 167, 56);
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: green;
+    color: aliceblue;
+    font-size: bold;
+}
+
+.container{
+    background-color: aliceblue;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 0.3rem;
+}
+
+.row-input{
+    display: flex;
+    gap: 2rem;
+}
+
+
+
+.row-input div,.column-input{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label{
+    width: 15rem;
+}
+
+input{
+    padding: 0.2rem;
+    background-color: aliceblue;
+    border: 1px solid rgb(157, 157, 157);
+
+}
+
+hr{
+    width: 30rem;
+    margin-bottom: 2rem;
+}
+
+
+.row-input:last-child{
+    margin-top: 2rem;
+}
+
+
+.dot{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.dot div{
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 3rem;
+
+}
